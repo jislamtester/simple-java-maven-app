@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Compete') {
             steps {
-                echo 'Job Complete'
+                echo 'Multi Branch- Job Complete'
             }
         }
     }
