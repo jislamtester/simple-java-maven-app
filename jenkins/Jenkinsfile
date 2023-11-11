@@ -16,9 +16,9 @@ pipeline {
                 }
             }
         }
-        stage('Deliver') {
+        stage('Compete') {
             steps {
-                sh './jenkins/scripts/deliver.sh'
+                echo 'Job Complete'
             }
         }
     }
